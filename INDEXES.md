@@ -4,7 +4,7 @@
 
 - Индексы в документации [Postgres](https://postgrespro.ru/docs/postgresql/16/indexes-types)
 
-1. Рандомно сгенерируем 1 000 000 записей
+1. Рандомно сгенерируем 5 000 000 записей
 ```sql
 INSERT INTO megaschema.employee (name, surname, patronymic, date_of_employment)
 SELECT
